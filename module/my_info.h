@@ -1,0 +1,17 @@
+#include <linux/kernel.h>
+#include <linux/module.h>
+#include <linux/init.h>
+#include <linux/proc_fs.h>
+#include <linux/uaccess.h>
+#include <linux/version.h>
+#include <linux/seq_file.h>
+#include <linux/utsname.h>
+#include <linux/mmzone.h>
+#include <linux/mm.h>
+#include <linux/swap.h>
+#include <linux/vmstat.h>
+#include <asm/page.h>
+#include <asm/pgtable.h>
+#include <linux/time.h>
+#include <linux/sched.h>
+#include <linux/kernel_stat.h>
